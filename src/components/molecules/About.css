@@ -1,0 +1,89 @@
+.about .title {
+  color: black;
+  text-align: center;
+  margin-top: -60px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.about .subTitle {
+  color: black;
+  text-align: center;
+  width: 95%;
+  font-size: 0.75rem;
+  margin: auto;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .about .title {
+    color: black;
+    text-align: center;
+    margin-top: -120px;
+    font-size: 2.5rempx;
+    font-weight: bold;
+  }
+
+  .about .subTitle {
+    color: black;
+    text-align: center;
+    width: 95%;
+    font-size: 1rem;
+    margin: auto;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    .about .title {
+        color: black;
+        text-align: center;
+        margin-top: -170px;
+        font-size: 3.2rem;
+        font-weight: bold;
+      }
+    
+      .about .subTitle {
+        color: black;
+        text-align: center;
+        width: 95%;
+        font-size: 1.2rem;
+        margin: auto;
+        font-weight: 300;
+      }
+}
+
+@media only screen and (min-width: 1440px) {
+    .about .title {
+        color: black;
+        text-align: center;
+        margin-top: -250px;
+        font-size: 4rem;
+        font-weight: bold;
+      }
+    
+      .about .subTitle {
+        color: black;
+        text-align: center;
+        width: 95%;
+        font-size: 2rem;
+        margin: auto;
+        font-weight: 300;
+      }
+}
+
+/* @media only screen and (min-width: 2560px) {
+  .home {
+    height: 120vh;
+  }
+  .title {
+    padding-top: 40vh;
+    padding-left: 75px;
+  }
+  .title h1 {
+    font-size: 23rem;
+  }
+  .title p {
+    font-size: 5rem;
+    width: 90vh;
+  }
+} */
