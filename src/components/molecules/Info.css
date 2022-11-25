@@ -6,6 +6,7 @@
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 4vh;
+  margin-bottom: 4vh;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -78,7 +79,7 @@
   
   @media only screen and (min-width: 1440px) {
     .info {
-        height: 37vh;
+        height: 40vh;
         width: "100%";
         margin-top: 4vh;
         padding-left: 20px;

@@ -21,7 +21,7 @@ const Info = () => {
           <Box height={10} />
         </Col>
       </Row>
-      <Box height={20} />
+      <Box height={40} />
     </div>
   );
 };

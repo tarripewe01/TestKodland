@@ -21,16 +21,19 @@ const Product = () => {
             <img src={imageSquare} className="image" />
             <Box height={10} />
             Square Pop It!
+            <ButtonProduct />
           </Col>
           <Col className="subtitleProduct">
             <img src={imageAmongUs} className="image" />
             <Box height={10} />
             Among Us Pop It!
+             <ButtonProduct />
           </Col>
           <Col className="subtitleProduct">
             <img src={imageRound} className="image" />
             <Box height={10} />
             Round Pop It!
+             <ButtonProduct />
           </Col>
         </Row>
       </Container>
