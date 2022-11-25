@@ -1,3 +1,7 @@
-import Header from "./Header";
+import Header from "./atoms/Header";
+import Box from "./atoms/Box";
+import ButtonAction from "./atoms/ButtonAction";
 
-export {Header}
+import Home from "./molecules/Home";
+
+export { Header, Box, ButtonAction, Home };

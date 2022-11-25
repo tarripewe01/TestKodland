@@ -4,7 +4,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 function Header() {
   return (
     <div>
-      <Navbar expand="lg" style={{ backgroundColor: "#ffbf69" }}>
+      <Navbar expand="md" style={{ backgroundColor: "#ffbf69" }}>
         <Container>
           <Navbar.Brand
             href="#home"

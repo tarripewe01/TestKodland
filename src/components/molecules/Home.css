@@ -1,0 +1,96 @@
+.home {
+  height: 35vh;
+  width: "100%";
+  background-image: url("https://res.cloudinary.com/djszqqoyf/image/upload/v1669365488/background_ssnfp9.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title {
+    padding-top: 10vh;
+    padding-left: 15px;
+}
+
+h1 {
+  font-size: 1.875rem;
+  font-weight: "bold";
+  color: #fff;
+  text-align: left;
+}
+
+p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: left;
+  width: 24vh;
+}
+
+@media only screen and (min-width: 768px)and (max-width: 1023px)  {
+    .home{
+        height: 50vh;
+    }
+    .title {
+        padding-top: 15vh;
+        padding-left: 35px;
+    }
+    .title h1 {
+        font-size: 6.25rem;
+    }
+    .title p {
+        font-size: 1.5rem;
+        width: 37vh;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) and (max-width: 1439px)  {
+    .home{
+        height: 50vh;
+    }
+    .title {
+        padding-top: 20vh;
+        padding-left: 35px;
+    }
+    .title h1 {
+        font-size: 6.25rem;
+    }
+    .title p {
+        font-size: 2rem;
+        width: 40vh;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    .home{
+        height: 65vh;
+    }
+    .title {
+        padding-top: 20vh;
+        padding-left: 75px;
+    }
+    .title h1 {
+        font-size: 9.25rem;
+    }
+    .title p {
+        font-size: 2.25rem;
+        width: 50vh;
+    }
+  }
+
+  @media only screen and (min-width: 2560px) {
+    .home{
+        height: 65vh;
+    }
+    .title {
+        padding-top: 20vh;
+        padding-left: 75px;
+    }
+    .title h1 {
+        font-size: 20rem;
+    }
+    .title p {
+        font-size: 5rem;
+        width: 45vh;
+    }
+  }
