@@ -1,0 +1,35 @@
+.buttonProduct {
+    background-color: #ffbf69;
+    width: 20%;
+    font-size: 0.75rem;
+    padding: 8px;
+    border-radius: 5px;
+    color: #303030;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .button {
+      width: 25%;
+      font-size: 1rem;
+      padding: 12px;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    .button {
+      width: 30%;
+      font-size: 1.5rem;
+      padding: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 1440px) {
+    .button {
+      width: 30%;
+      font-size: 1.5rem;
+      padding: 15px;
+    }
+  }
+  

@@ -1,8 +1,11 @@
 import Header from "./atoms/Header";
 import Box from "./atoms/Box";
 import ButtonAction from "./atoms/ButtonAction";
+import ButtonProduct from "./atoms/ButtonProduct";
 
 import Home from "./molecules/Home";
-import About from './molecules/About';
+import About from "./molecules/About";
+import Product from "./molecules/Product";
+import Info from './molecules/Info';
 
-export { Header, Box, ButtonAction, Home, About };
+export { Header, Box, ButtonAction, ButtonProduct, Home, About, Product, Info };

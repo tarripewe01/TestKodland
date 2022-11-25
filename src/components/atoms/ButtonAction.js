@@ -1,8 +1,9 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
+
+import './ButtonAction.css'
 
 const ButtonAction = () => {
-  return <Button variant="primary">Primary</Button>;
+  return <div className="button" >BUY NOW</div>;
 };
 
 export default ButtonAction;
