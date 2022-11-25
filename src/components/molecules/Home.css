@@ -46,7 +46,7 @@ p {
 
   @media only screen and (min-width: 1024px) and (max-width: 1439px)  {
     .home{
-        height: 50vh;
+        height: 70vh;
     }
     .title {
         padding-top: 20vh;
@@ -63,34 +63,34 @@ p {
 
   @media only screen and (min-width: 1440px) {
     .home{
-        height: 65vh;
+        height: 100vh;
     }
     .title {
-        padding-top: 20vh;
+        padding-top: 30vh;
         padding-left: 75px;
     }
     .title h1 {
-        font-size: 9.25rem;
+        font-size: 10rem;
     }
     .title p {
         font-size: 2.25rem;
-        width: 50vh;
+        width: 70vh;
     }
   }
 
   @media only screen and (min-width: 2560px) {
     .home{
-        height: 65vh;
+        height: 120vh;
     }
     .title {
-        padding-top: 20vh;
+        padding-top: 40vh;
         padding-left: 75px;
     }
     .title h1 {
-        font-size: 20rem;
+        font-size: 23rem;
     }
     .title p {
         font-size: 5rem;
-        width: 45vh;
+        width: 90vh;
     }
   }
