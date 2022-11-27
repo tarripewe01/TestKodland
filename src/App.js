@@ -1,3 +1,4 @@
+import React from "react";
 import { About, Contact, Header, Home, Info, Product } from "./components";
 
 function App() {
